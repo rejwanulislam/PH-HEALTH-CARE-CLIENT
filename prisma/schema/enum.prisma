@@ -4,8 +4,14 @@ enum Role {
     PATIENT
     ADMIN
 }
+
 enum userStatus {
-BlOCKED
-DELETED
-ACTIVE
+    BlOCKED
+    DELETED
+    ACTIVE
+}
+
+enum Gender {
+    MALE
+    FEMALE
 }

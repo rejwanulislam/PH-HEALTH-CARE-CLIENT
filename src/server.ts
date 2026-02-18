@@ -1,6 +1,7 @@
 import app from "./app";
+import { envVars } from "./config/env";
 
-const port = 5000; // The port your express server will be running on.
+const port = envVars.PORT; // The port your express server will be running on.
 
 
 
